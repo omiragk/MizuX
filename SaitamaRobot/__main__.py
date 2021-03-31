@@ -80,15 +80,15 @@ I am cute group management bot. You can find my list of available commands with 
 """
 
 HELP_STRINGS = """
-Hey! My name is *MizuX*. I am a group management bot, here to help you get around and keep the order in your groups!
+Hey! My name is *Anna*. I am a group management bot, here to help you get around and keep the order in your groups!
 
 I have lots of handy features, such as flood control, a warning system, a note keeping system, and even predetermined replies on certain keywords.
 """
 
-SAITAMA_IMG = "https://telegra.ph/file/5b92d8104ad4203a37699.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/1d3d724d5ffbb6086d0f5.png"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](ko-fi.com/sawada)"""
+DONATE_STRING = """Hey, glad to hear you want to donate!
+ You ca support the project via [telegram](https://t.me/omiragk)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -209,22 +209,22 @@ def start(update: Update, context: CallbackContext):
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
-                             text=" 🔊 Channel ",
-                             url="https://t.me/Infinity_BOTs")
+                             text=" 🔊 owner ",
+                             url="https://t.me/omiragk")
                      ],
                      [
                         InlineKeyboardButton(
                             text=" ❓ Help ",
-                            url="https://t.me/MizuXBot?start=help"),
+                            url="https://t.me/group_anna_robot?start=help"),
                          InlineKeyboardButton(
                             text=" ✨ Developer",
-                             url="https://t.me/ImJanindu")        
+                             url="https://t.me/omiragk")        
                        
                      ],
                      [
                         InlineKeyboardButton(
-                             text=" #⃣ Source Code ",
-                             url="https://github.com/ImJanindu/MizuX")
+                             text=" GitHub profile",
+                             url="https://github.com/omiragk")
                     
                     ]
                    ]
